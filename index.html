@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De rekening</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Plaster&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <!-- Mijn idee is een dating app gebasseerd op (favoriete) restaurants. De restaurants die
+    te zien (en liken) zijn in de app sponsoren deze dating app, op een manier dat de
+    dates korting krijgen in het restaurant dat zij liken zodat ze dat als eerste date
+    kunnen bezoeken. Hierdoor krijgt het restaurant extra 'bekijk' en meer klanten.
+    Aan het einde van de date krijg je de volgende onderstaande feature te zien. De 
+    dates kunnen dan kiezen of ze de rekening delen of niet. Het is dan de bedoeling 
+    dat ik doormiddel van javascript ga uitwerken dat het restaurant zelf ik kan vullen,
+    via een voor hun externe speciale link, hoeveel het eten uiteindelijk heeft gekost. 
+    Dan zien de dates dat bedrag en kunnen zij ervoor kiezen of ze dit bedrag delen of 
+    dat 1 van hen de rekening betaald. Op dit moment zijn de knoppen klikbaar en gaan ze 
+    naar de website van tikkie,  maar wanneer deze feature helemaal uitgewerkt is wil ik 
+    dit zo gaan maken dat het goede bedrag door wordt gegeven aan de bij die persoon- 
+    horende bankieren app, zodat de rekening betaald kan worden. -->
+
+    <section class="buitenkant">
+
+    <div class="binnenkant">
+         <h1>The bill</h1>
+
+         <img src="images/zero.png" alt="zero state">
+         <h2>How did the date go?</h2>
+
+         <!-- Bron slider: w3schools. (z.d.-a). How To Create Range Sliders. Geraadpleegd op 
+            31 mei 2020, van https://www.w3schools.com/howto/howto_js_rangeslider.asp -->
+         <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          </div>
+          
+         <div class="knoppen">
+         <div class="buttons">
+
+                <button class="ikbetaal"> <a href="two.html">continue</a></button>
+                        </div>
+            </div>
+        
+        </div>
+
+    </div>
+    </section>
+ 
+    <script src="mealmatch.js"></script>
+</body>
+</html>
