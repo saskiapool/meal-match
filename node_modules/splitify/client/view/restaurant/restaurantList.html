@@ -1,0 +1,18 @@
+<template name="restaurantList">
+    Restaurant list <a href="{{pathFor route='restaurant.create'}}" class="btn">Create</a>
+    <ul class="collection">
+        {{#each restaurants}}
+            <li class="collection-item">
+                <ul>
+                    <li>{{title}}</li>
+                    <li>{{description}}</li>
+                    <li><img src="{{picture}}" width="100px"/></li>
+                    <li>
+                        <a href="{{pathFor route='restaurant.view'}}">View</a>
+                        <a href="#" class="restaurant-delete-item">Delete</a>
+                    </li>
+                </ul>
+            </li>
+        {{/each}}
+    </ul>
+</template>

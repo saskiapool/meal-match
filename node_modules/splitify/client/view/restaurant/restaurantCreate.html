@@ -1,0 +1,9 @@
+<template name="restaurantCreate">
+    <h6>Restaurant create</h6>
+    <a href="{{pathFor route='restaurant.list'}}" class="btn">List restaurants</a>
+    <form name="restaurant-create" id="restaurant-create-form">
+        <input id="restaurant-create-title" type="text" name="title" class="text" placeholder="Restaurant title"/>
+        <textarea id="restaurant-create-description" name="description" class="materialize-textarea" placeholder="Restaurant description"></textarea>
+        <input id="restaurant-create-submit" class="btn" type="submit" value="Create"/>
+    </form>
+</template>

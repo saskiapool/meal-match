@@ -1,0 +1,13 @@
+<template name="default">
+    <header>
+        {{> navigation}}
+    </header>
+
+    <main class="container">
+        {{> yield}}
+    </main>
+
+    <footer>
+        {{> yield region="footer"}}
+    </footer>
+</template>

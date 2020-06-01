@@ -1,0 +1,8 @@
+<template name="participantList">
+    <h3>Participant list</h3>
+    <ul class="collection">
+        {{#each users}}
+            <li class="collection-item"><a href="{{pathFor route='profile.view'}}">{{username}}</a></li>
+        {{/each}}
+    </ul>
+</template>

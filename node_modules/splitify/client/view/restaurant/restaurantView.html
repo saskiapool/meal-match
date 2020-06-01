@@ -1,0 +1,10 @@
+<template name="restaurantView">
+    <h3>Restaurant view</h3>
+    <a href="{{pathFor route='restaurant.list'}}">Restaurants list</a>
+    <ul class="collection">
+        <li class="collection-item">{{restaurant.title}}</li>
+        <li class="collection-item">{{restaurant.description}}</li>
+        <li class="collection-item"><img src="{{restaurant.picture}}" width="250px"/></li>
+        <li class="collection-item"><a href="#" id="restaurant-delete-btn">Delete</a></li>
+    </ul>
+</template>

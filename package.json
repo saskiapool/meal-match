@@ -1,0 +1,32 @@
+{
+  "name": "mealmatch",
+  "version": "1.0.0",
+  "description": "package for mealmatch",
+  "main": "mealmatch.js",
+  "scripts": {
+    "test": "s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saskiapool/meal-match.git"
+  },
+  "keywords": [
+    "mealmatch",
+    "dating",
+    "yummie"
+  ],
+  "author": "Saskia Pool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saskiapool/meal-match/issues"
+  },
+  "homepage": "https://github.com/saskiapool/meal-match#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "splitify": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
